@@ -1,0 +1,13 @@
+D:\AI\Projects\KnowledgeOps.AI\bin\Debug\net10.0\KnowledgeOps.AI.deps.json
+D:\AI\Projects\KnowledgeOps.AI\bin\Debug\net10.0\KnowledgeOps.AI.dll
+D:\AI\Projects\KnowledgeOps.AI\bin\Debug\net10.0\KnowledgeOps.AI.pdb
+D:\AI\Projects\KnowledgeOps.AI\obj\Debug\net10.0\KnowledgeOps.AI.csproj.AssemblyReference.cache
+D:\AI\Projects\KnowledgeOps.AI\obj\Debug\net10.0\KnowledgeOps.AI.GeneratedMSBuildEditorConfig.editorconfig
+D:\AI\Projects\KnowledgeOps.AI\obj\Debug\net10.0\KnowledgeOps.AI.AssemblyInfoInputs.cache
+D:\AI\Projects\KnowledgeOps.AI\obj\Debug\net10.0\KnowledgeOps.AI.AssemblyInfo.cs
+D:\AI\Projects\KnowledgeOps.AI\obj\Debug\net10.0\KnowledgeOps.AI.csproj.CoreCompileInputs.cache
+D:\AI\Projects\KnowledgeOps.AI\obj\Debug\net10.0\KnowledgeOps.AI.sourcelink.json
+D:\AI\Projects\KnowledgeOps.AI\obj\Debug\net10.0\KnowledgeOps.AI.dll
+D:\AI\Projects\KnowledgeOps.AI\obj\Debug\net10.0\refint\KnowledgeOps.AI.dll
+D:\AI\Projects\KnowledgeOps.AI\obj\Debug\net10.0\KnowledgeOps.AI.pdb
+D:\AI\Projects\KnowledgeOps.AI\obj\Debug\net10.0\ref\KnowledgeOps.AI.dll

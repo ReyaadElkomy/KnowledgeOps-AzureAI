@@ -20,6 +20,7 @@
       "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
       "outputPath": "D:\\AI\\Projects\\KnoledgeOps.Web\\obj\\",
       "projectStyle": "PackageReference",
+      "centralPackageVersionsManagementEnabled": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
@@ -58,6 +59,16 @@
       "net10.0": {
         "framework": "net10.0",
         "targetAlias": "net10.0",
+        "centralPackageVersions": {
+          "Microsoft.Extensions.Configuration.UserSecrets": "11.0.0",
+          "Microsoft.Extensions.Hosting": "11.0.0",
+          "Microsoft.Extensions.Logging": "11.0.0",
+          "Microsoft.Extensions.Logging.Console": "11.0.0",
+          "Microsoft.Extensions.Options.DataAnnotations": "11.0.0",
+          "Microsoft.SemanticKernel": "1.82.0",
+          "Microsoft.SemanticKernel.Connectors.AzureOpenAI": "1.82.0",
+          "Microsoft.SemanticKernel.Plugins.Core": "1.82.0-preview"
+        },
         "imports": [
           "net461",
           "net462",
