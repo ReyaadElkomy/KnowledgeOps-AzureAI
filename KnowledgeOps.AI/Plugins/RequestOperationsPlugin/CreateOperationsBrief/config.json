@@ -1,0 +1,19 @@
+{
+    "schema": 1, 
+    "type": "completion", 
+    "description": "This plugin allows you to create a brief for operations based on the provided context and requirements. It generates a structured summary that outlines the key objectives, tasks, and resources needed for successful execution.",
+    "input_variables": [
+        {
+            "name": "requestDetails", 
+            "description": "The internal request details that provide context and requirements for the operations brief. This should include information such as objectives, tasks, resources, and any specific constraints or considerations.", 
+            "is_required": true
+        }
+    ], 
+    "execution_settings":{
+        "default": {
+            "max_tokens": 900, 
+            "temperature": 0.2
+        }
+    }
+
+}

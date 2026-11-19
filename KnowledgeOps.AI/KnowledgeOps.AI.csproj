@@ -17,4 +17,8 @@
     <PackageReference Include="Microsoft.SemanticKernel.Plugins.Core" />
   </ItemGroup>
 
+ <ItemGroup>
+  <Content Include="Plugins\**\*.*" CopyToOutputDirectory="PreserveNewest" />
+ </ItemGroup>
+
 </Project>

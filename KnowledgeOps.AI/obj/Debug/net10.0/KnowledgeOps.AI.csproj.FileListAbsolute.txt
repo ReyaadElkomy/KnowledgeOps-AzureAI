@@ -11,3 +11,5 @@ D:\AI\Projects\KnowledgeOps.AI\obj\Debug\net10.0\KnowledgeOps.AI.dll
 D:\AI\Projects\KnowledgeOps.AI\obj\Debug\net10.0\refint\KnowledgeOps.AI.dll
 D:\AI\Projects\KnowledgeOps.AI\obj\Debug\net10.0\KnowledgeOps.AI.pdb
 D:\AI\Projects\KnowledgeOps.AI\obj\Debug\net10.0\ref\KnowledgeOps.AI.dll
+D:\AI\Projects\KnowledgeOps.AI\bin\Debug\net10.0\Plugins\RequestOperationsPlugin\CreateOperationsBrief\config.json
+D:\AI\Projects\KnowledgeOps.AI\bin\Debug\net10.0\Plugins\RequestOperationsPlugin\CreateOperationsBrief\skprompts.txt

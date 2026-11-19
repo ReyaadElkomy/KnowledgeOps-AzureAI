@@ -1,3 +1,4 @@
+using KnowledgeOps.AI.Prompts;
 using Microsoft.SemanticKernel;
 using Microsoft.SemanticKernel.ChatCompletion;
 using Microsoft.SemanticKernel.Connectors.OpenAI;
@@ -7,6 +8,28 @@ namespace KnowledgeOps.AI.Services;
 public sealed class KnoledgeOpsChatClient(IChatCompletionService chatCompletionService, 
     Kernel kernel) : IKnoledgeOpsChatClient
 {
+    public async Task<string> AskWithPromptAsync(string prompt, CancellationToken cancellationToken = default)
+    {
+        var result = await kernel.InvokePromptAsync(prompt, cancellationToken: cancellationToken);
+        return result.ToString();
+    }
+
+    public async Task<string> CreateOperationsBriefAsync(string requestDetails, CancellationToken cancellationToken = default)
+    {
+        var arguments = new KernelArguments
+        {
+            { "requestDetails", requestDetails }
+        };
+        
+        var result = await kernel.InvokeAsync(  
+            "requestOperations", 
+            "CreateOperationsBrief", 
+            arguments, 
+            cancellationToken: cancellationToken);
+
+        return result.ToString();
+    }
+
     public async Task<string> GetCurrentDateAsync(CancellationToken cancellationToken = default)
     {
         var result = await kernel.InvokeAsync("Time", "Today", cancellationToken: cancellationToken);
@@ -29,5 +52,19 @@ public sealed class KnoledgeOpsChatClient(IChatCompletionService chatCompletionS
         return result.Content ?? string.Empty;
     }
 
-    
+    public async Task<string> SummrizeRequestAsync(string requestTitle, string requestDetails, string audience, CancellationToken cancellationToken = default)
+    {
+        var arguments = new KernelArguments
+        {
+            { "requestTitle", requestTitle },
+            { "requestDetails", requestDetails },
+            { "audience", audience }
+        };
+
+        var result = await kernel.InvokePromptAsync(
+                    KnowledgeOpsPromptTemplates.RequestSummary, 
+                    arguments, cancellationToken: cancellationToken);
+
+        return result.ToString();
+    }
 }

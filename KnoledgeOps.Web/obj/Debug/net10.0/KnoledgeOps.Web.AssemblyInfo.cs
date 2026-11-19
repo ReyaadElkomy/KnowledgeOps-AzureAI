@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KnoledgeOps.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+61fa66517af3a2f12f7daef309ec8db0173b797d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fc74595b049de7af96581a95a2d674ed9dd7e068")]
 [assembly: System.Reflection.AssemblyProductAttribute("KnoledgeOps.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KnoledgeOps.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

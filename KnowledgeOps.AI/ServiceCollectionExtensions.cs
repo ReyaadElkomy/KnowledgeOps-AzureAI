@@ -36,7 +36,11 @@ public static class ServiceCollectionExtensions
             builder.Plugins.AddFromType<TimePlugin>("Time");
             builder.Plugins.AddFromType<ConversationSummaryPlugin>("Summarization");
             
-            return builder.Build();
+            var kernel = builder.Build();
+            var requestOperationsPlugnsPath = Path.Combine(AppContext.BaseDirectory, "Plugins", "RequestOperationsPlugn");
+            kernel.ImportPluginFromPromptDirectory(requestOperationsPlugnsPath, "RequestOperations");
+
+            return kernel;
         });
 
         services.AddSingleton(sp =>
